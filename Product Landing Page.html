@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+
+<html>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abhaya Libre">
+<main id="container">
+	<div class="navbar">
+		<header id="header">
+		  <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="The original trombones logo">
+		  <nav id="nav-bar">
+		  	<ul>
+		  		<li><a class="nav-link" href="#features">Features</a></li>
+		  		<li><a class="nav-link" href="#howitworks">How it works</a></li>
+		  		<li><a class="nav-link" href="#pricing">Pricing</a></li>
+		  	</ul>
+		  </nav>
+		</header>
+	</div>
+<body>
+	<div id="page-header">
+		<h1>Handcrafted, home-made masterpieces</h1>
+		<form id="form" action="https://www.freecodecamp.org/email-submit">
+			<input id="email" type="email" name="email" required placeholder="Enter your email address"> <br><br>
+			<input id="submit" type="submit" class="btn" value="Submit">
+
+		</form>
+
+	</div>
+
+	<div id="page-info">
+		<div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+			<div id="features">
+				<h2>Premium Materials</h2>	
+				<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+			</div>
+			<div id="shipping">
+				<h2>Fast Shipping</h2>
+				<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+			</div>
+		<div id="assurance">
+			<h2>Quality Assurance</h2>
+			<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p> <br> <br>
+		</div>
+
+		<div id="howitworks">
+			<iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
+
+		</div>
+
+	</div>
+	<div id="product">
+		<div id="pricing">
+			<div id="tenor-trombone">
+				<h3> TENOR TROMBONE </h3>
+				<ol>
+					<li><strong> $600 </strong></li>
+					<li> Lorem ipsum.</li>
+					<li> Lorem ipsum.</li>
+					<li> Lorem ipsum dolor.</li>
+					<li> Lorem ipsum. </li>
+				</ol>
+				<button id="select"> SELECT </button>
+			</div>
+		    
+			
+		</div>
+
+
+		<div id="bass-trombone">
+			<h3> BASS TROMBONE </h3>
+			<ol>
+				<li><strong> $900</strong></li>
+				<li> Lorem ipsum.</li>
+				<li> Lorem ipsum.</li>
+				<li> Lorem ipsum dolor.</li>
+				<li> Lorem ipsum. </li>
+			</ol>
+			<button id="select"> SELECT </button>
+
+
+		</div>
+
+
+		<div id="valve-trombone">
+			<h3> VALVE TROMBONE </h3>
+			<ol>
+				<li><strong> $1200</strong></li>
+				<li> Plays similar to a Trumpet </li>
+				<li> Great for Jazz Bands </li>
+				<li> Lorem ipsum dolor. </li>
+				<li> Lorem ipsum </li>
+			</ol>
+			<button id="select"> SELECT </button>
+
+		</div>
+	</div>
+
+	<footer>
+	  <p>
+	  	<li> <a href="#">Privacy </a></li>
+	  	<li> <a href="#">Terms </a></li>
+	  	<li> <a href="#">Contact </a></li>	 		
+	  </p>
+	  </ul>
+	  <span> Copyright 2016, original Trombones</span>
+	</footer>
+
+</body>
+</main>
+
+</html>
+
+<style>
+
+	#container {
+		position: relative;
+
+	}
+
+	#nav-bar {
+		text-align: center;
+		position: fixed;
+		padding-left: 950px;
+	}
+
+	#nav-bar li {
+		display: inline;
+		padding: 10px;	
+	}
+
+	#page-header {
+		text-align: center;
+/*		margin-top: 50px; */
+		padding: 50px;
+	}
+
+	#page-info {
+		text-align: left;
+		margin-left: 300px;
+		font-family: 'Abhaya Libre';
+
+	}
+
+	#product {
+		display: flex;
+		flex-direction: row;
+        margin-top: 70px;
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+	}
+
+
+	#tenor-trombone {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-right:  50px;
+		border: 7px solid rgb(242, 242, 242);
+       
+	}
+
+	#bass-trombone {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 25px;
+		border: 7px solid rgb(242, 242, 242);
+	}
+
+	#valve-trombone {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 50px;
+		border: 7px solid rgb(242, 242, 242);
+	}
+
+	#submit {
+		background-color: yellow;
+	}
+
+	body {
+		background-color: #eee;
+	}
+
+	a {
+		text-decoration: none;
+
+	}
+
+	button {
+		background-color: yellow;
+	}
+
+
+	li {
+		list-style: none;
+		text-align: left;
+		
+	}
+
+	img {
+		width: 375px;
+		position: fixed;
+		padding-right: 1000px;	
+	}
+
+	footer {
+		margin: 30px;
+  		padding: 10px;
+  		background: #d9d9d9;
+  		font-size: 20px;
+	}
+
+	p {
+
+		font-size: 20px;
+	}
+
+	@media (max-width: 500px) {
+		header {
+			background-color: #e6e6e6;
+		}
+
+	}
+
+
+
+/*
+	.navbar {
+		position: fixed;
+		width: 100%;
+		margin-right: 50px;
+	}
+
+	.navbar a {
+		float: left;
+		width: 100%;
+		margin-right: 50px;
+
+	}
+
+*/
+
+</style>
